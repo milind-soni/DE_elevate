@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "movie_id": {
+          "type": "integer"
+        },
+        "rating": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "movie_id",
+        "rating"
+      ]
+    }
+  ]
+}
